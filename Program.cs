@@ -21,6 +21,10 @@ txt = txt.Replace("e", string.Concat(Enumerable.Repeat("eee", 1)));
 txt = txt.Replace("i", string.Concat(Enumerable.Repeat("iii", 1)));
 txt = txt.Replace("o", string.Concat(Enumerable.Repeat("ooo", 1)));
 txt = txt.Replace("u", string.Concat(Enumerable.Repeat("uuu", 1)));
+//*REPLACE:  é um método que substitui todas as ocorrências de um caractere ou sequência de caracteres por outro.*//
+//*STRING.CONCAT: é um método que concatena uma sequência de strings em uma única string.*//
+//*ENUMERABLE.REPEAT("aaa", 1): é uma função do namespace System.Linq que repete a string "aaa" UMA vez. Ela é 
+//*utilizada para criar a sequência de caracteres que será usada na substituição. Neste caso, a letra "a" será substituída por "aaa".*//
 
 
 //exibe o texto traduzido para baleiês
